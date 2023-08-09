@@ -1,0 +1,10 @@
+C:\Windows\System32\curl.exe localhost:5000/txion --header "Content-Type: application/json" -d "{'from': 'akjflw', 'to': 'fjlakdj', 'amount': 3}"
+
+
+
+curl http://127.0.0.1:5000/txion --header "Content-Type: application/json" -d "{'from': 'akjflw', 'to': 'fjlakdj', 'amount': 3}"
+
+
+
+
+curl "http://127.0.0.1:5000/txion" -d "{\"from\": \"akjflw\", \"to\": \"fjlakdj\", \"amount\": 3}" -H "Content-Type: application/json" 
